@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  background-color: chocolate; }
+
+body {
+  background-color: sandybrown; }
+
+.pizzas-pages div h2 {
+  font-size: 60px; }
+
+.pizzas-pages div h3 {
+  font-size: 40px; }
+
+.pizzas-pages div p {
+  font-size: 30px; }
