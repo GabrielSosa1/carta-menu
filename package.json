@@ -1,0 +1,17 @@
+{
+  "name": "carta",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Gabriel sosa</h1><h3 align=\"center\">Un desarrollador frontend apasionado de Argentina</h3><p align=\"left\"> <img src=\"https://komarev.com/ghpvc/?username=gabrielsosa1&label=Profile%20views&color=0e75b6&style=flat\" alt=\"gabrielsosa1\" /> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
